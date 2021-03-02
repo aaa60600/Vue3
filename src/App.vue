@@ -5,6 +5,7 @@
     <button @click="sebd">sebd</button>
   </div>
   <hellow :data="data" :show="show" />
+  <el-button type="text" @click="sebd">点击打开 Dialog</el-button>
 </template>
 <script>
 import { ref } from "vue";
